@@ -5,8 +5,214 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
+    <header>
+      <!-- <h1>Студия дизайна Nerds</h1> -->
+      <div class="wrapper">
+      <a href="">
+        <img src="/img/nerds-logo.svg" alt="логотип">
+      </a>
+      <nav>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="#">Студия</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Клиенты</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Магазин</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="basket">Корзина</a>
+    </div>
+    
+    </header>
+    <main>
+      <section class="slider">
+        
+        <div class="wrapper">
+          <!-- <h2>Преимущества</h2> -->        
+          <div class="slider-position">
+            <div>
+              <input type="radio" name="toggle" id="slide-1" checked>
+              <label class="slider-position-item" for="slide-1"></label>
+            </div>
+            <div>
+              <input type="radio" name="toggle" id="slide-2">
+              <label class="slider-position-item" for="slide-2"></label>
+            </div>
+            <div>
+              <input type="radio" name="toggle" id="slide-3">
+            <label class="slider-position-item" for="slide-3"></label>
+            </div>           
+          </div>
+          <ul class="slider-list">
+            <li class="slider-item">
+              <p>Долго, дорого, скрупулезно.</p>
+             <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+             <a href="#">Узнать больше</a>
+            </li>
+            <li class="slider-item">
+              <p>Любим математику как никто другой</p>
+             <p>Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+             <a href="#">Узнать больше</a>
+            </li>
+            <li class="slider-item">
+              <p>Только ночь, только хардкор</p>
+             <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+             <a href="#">Узнать больше</a>
+            </li>
+          </ul>
+         
+        </div>
+      </section>
+      <!-- Секция Услуг -->
+      <section class="services">
+        <div class="wrapper">
+        <h2 class="hidden">Услуги</h2>
+        <ul class="services-list">
+          <li class="services-item">
+            <div>
+            <img src="/img/illustration-1 1.png" alt="Веб-сайты">
+          </div>
+            <h3>Веб-сайты</h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a href="#">Заказать</a>
+          </li>
+          <li class="services-item">
+            <div>
+            <img src="/img/illustration-2 1.png" alt="Приложения">
+          </div>
+            <h3>Приложения</h3>
+            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <a href="#">Заказать</a>
+          </li>
+          <li class="services-item">
+            <div>
+            <img src="/img/illustration-3 1.png" alt="Презентации">
+          </div>
+            <h3>Презентации</h3>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a href="#">Заказать</a>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <!-- Секция о компании -->
+      <section class="about-company">
+        <div class="wrapper">
+          <!-- <h2>О компании</h2> -->
+          <div class="description">
+            <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+            <p>
+              Исповедуем принципы минимализма и чистоты. Ставим математический расчетпревыше креатива. Работаем не покладая рук, как роботы.
+            </p>
+            <p>
+              Выполняем заказы на разработку:
+            </p>
+            <ul class="description-list">
+              <li class="description-item">Веб-сайтов любой сложности</li>
+              <li class="description-item">Мобильных приложений для iOS и Android</li>
+              <li class="description-item">Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+          </div>
+          <div class="staistic-table">
+            <h2>Статистика</h2>
+            <div>
+            <img src="/img/nerds-illustration 1.png" alt="Статистика">
+          </div>
+            <p>с 2004 года Любим точность во всем:</p>
+            <table>
+              <tr>
+                <td>146 <sup>%</sup></td>
+                <td>100 <sup>%</sup></td>
+                <td>50 <sup>%</sup></td>
+             </tr>
+             <tr>
+               <td>Уровень самоотдачи</td>
+               <td>Соблюдение сроков</td>
+               <td>Минимальная предоплата</td>
+             </tr>
+            </table>
+          </div>
+        </div>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+      </section>
+      <!-- Клиенты -->
+      <section class="clients">
+        <div class="wrapper">
+          <ul class="clients-list">
+            <li class="client-item">
+              <a href="#">
+                <img src="/img/academy.png" alt="htmlAcademy">
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="#">
+                <img src="/img/borodin.png" alt="Бородинский">
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="#">
+                <img src="/img/logo-3 1.png" alt="Pink">
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="#">
+                <img src="/img/logo-4 1.png" alt="Mishka">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="map">
+        <!-- <h2>Схема проезда</h2> -->
+        <!-- сюда добавить путь до карты -->
+        <iframe src="#" frameborder="0"></iframe> 
+        
+          <section class="info">
+            <h3>NЁRDS DESIGN STUDIO</h3>
+            <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <a>тел. +7 (812) 275-75-75</a>
+            <a href="#">Напишите нам</a>
+
+          </section>
+        
+
+      </section>
+    </main>
+    <footer>
+      <div class="wrapper">
+        <ul class="social-icons">
+          <!-- Вставить картинки через svg -->
+          <li>
+            <a href="">
+              Вконтакте
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Фейсбук
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Инстаграмм
+            </a>
+          </li>
+        </ul>
+        <div class="friends">
+          <h3>Давайте дружить, это выгодно!</h3>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+
+    </footer>
+    
 
   </body>
 </html>
