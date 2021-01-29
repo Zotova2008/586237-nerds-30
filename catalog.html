@@ -32,98 +32,93 @@
             <a href="#" class="basket">Корзина</a>
             <h1>Магазин готовых шаблонов</h1>
         </div>
-
     </header>
     <main>
         <div class="wrapper">
-            <section class="filter">
-                <form class="filter" method="GET" action="">
-                    <section class="filter-description">
-                        <fieldset>
-                            <h2>Стоимость:</h2>
-                            <!-- для ползунка -->
-                            <div class="">
+            <form class="filter" method="GET" action="">
+                <fieldset>
+                    <legend>Стоимость:</legend>
+                    <!-- для ползунка -->
+                    <div class="">
 
-                            </div>
-                            <!-- для стоимости -->
-                            <div class="">
+                    </div>
+                    <!-- для стоимости -->
+                    <div class="">
 
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <legend class="">Сетка:</legend>
-                            <ul>
-                                <li class="option">
-                                    <input type="radio" name="opt" id="adapt" checked disabled>
-                                    <label for="adapt">Адаптивная</label>
-                                </li>
-                                <li class="option">
-                                    <input type="radio" name="opt" id="fix">
-                                    <label for="fix">Фиксированная</label>
-                                </li>
-                                <li class="option">
-                                    <input type="radio" name="opt" id="retina">
-                                    <label for="retina">Резиновая</label>
-                                </li>
-                            </ul>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Особенности:</legend>
-                            <ul class="list">
-                                <li class="item">
-                                    <input type="checkbox" name="slider" id="slider" checked disabled>
-                                    <label for="slider">Слайдер</label>
-                                </li>
-                                <li class="item">
-                                    <input type="checkbox" name="quility" id="quility">
-                                    <label for="quility">Блок преимуществ</label>
-                                </li>
-                                <li class="item">
-                                    <input type="checkbox" name="new" id="new" checked>
-                                    <label for="new">Новости</label>
-                                </li>
-                                <li class="item">
-                                    <input type="checkbox" name="gallery" id="gallery">
-                                    <label for="gallery">Галерея</label>
-                                </li>
-                                <li class="item">
-                                    <input type="checkbox" name="basket" id="basket">
-                                    <label for="basket">Корзина</label>
-                                </li>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="">Сетка:</legend>
+                    <ul>
+                        <li class="option">
+                            <input type="radio" name="opt" id="adapt" checked disabled>
+                            <label for="adapt">Адаптивная</label>
+                        </li>
+                        <li class="option">
+                            <input type="radio" name="opt" id="fix">
+                            <label for="fix">Фиксированная</label>
+                        </li>
+                        <li class="option">
+                            <input type="radio" name="opt" id="retina">
+                            <label for="retina">Резиновая</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Особенности:</legend>
+                    <ul class="list">
+                        <li class="item">
+                            <input type="checkbox" name="slider" id="slider" checked disabled>
+                            <label for="slider">Слайдер</label>
+                        </li>
+                        <li class="item">
+                            <input type="checkbox" name="quility" id="quility">
+                            <label for="quility">Блок преимуществ</label>
+                        </li>
+                        <li class="item">
+                            <input type="checkbox" name="new" id="new" checked>
+                            <label for="new">Новости</label>
+                        </li>
+                        <li class="item">
+                            <input type="checkbox" name="gallery" id="gallery">
+                            <label for="gallery">Галерея</label>
+                        </li>
+                        <li class="item">
+                            <input type="checkbox" name="basket" id="basket">
+                            <label for="basket">Корзина</label>
+                        </li>
 
-                            </ul>
-                        </fieldset>
-                        <button type="submit">Показать</button>
-                    </section>
-                </form>
+                    </ul>
+                </fieldset>
+                <button type="submit">Показать</button>
 
-            </section>
+            </form>
+
+
             <section class="catalog">
                 <section class="sort">
-                    <h2>Сортировка</h2>
-                    <legend>Сортировать:</p>
-                        <ul class="sort-list">
-                            <li class="sort-item">
-                                <a href="#">По цене</a>
-                            </li>
-                            <li class="sort-item">
-                                <a href="#">По типу</a>
-                            </li>
-                            <li class="sort-item">
-                                <a href="#">По названию</a>
-                            </li>
-                        </ul>
-                        <div class="button">
-                            <button class="sort-down"></button>
-                            <button class="sort-up"></button>
-                        </div>
+                    <h2>Сортировать:</h2>
+                    <ul class="sort-list">
+                        <li class="sort-item">
+                            <a href="#">По цене</a>
+                        </li>
+                        <li class="sort-item">
+                            <a href="#">По типу</a>
+                        </li>
+                        <li class="sort-item">
+                            <a href="#">По названию</a>
+                        </li>
+                    </ul>
+                    <div class="button">
+                        <button class="sort-down"></button>
+                        <button class="sort-up"></button>
+                    </div>
                 </section>
                 <section class="catalog-site">
                     <ul class="site-list">
                         <li class="site-item">
                             <a href="#">
-                                <svg width="360" height="40" viewBox="0 0 360 40" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="360" height="40" viewbox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
                                         fill="#4D4D4D" />
@@ -140,8 +135,7 @@
                         </li>
                         <li class="site-item">
                             <a href="#">
-                                <svg width="360" height="40" viewBox="0 0 360 40" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="360" height="40" viewbox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
                                         fill="#4D4D4D" />
@@ -158,8 +152,7 @@
                         </li>
                         <li class="site-item">
                             <a href="#">
-                                <svg width="360" height="40" viewBox="0 0 360 40" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="360" height="40" viewbox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
                                         fill="#4D4D4D" />
@@ -176,8 +169,7 @@
                         </li>
                         <li class="site-item">
                             <a href="#">
-                                <svg width="360" height="40" viewBox="0 0 360 40" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="360" height="40" viewbox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
                                         fill="#4D4D4D" />
@@ -194,8 +186,7 @@
                         </li>
                         <li class="site-item">
                             <a href="#">
-                                <svg width="360" height="40" viewBox="0 0 360 40" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="360" height="40" viewbox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
                                         fill="#4D4D4D" />
@@ -212,8 +203,7 @@
                         </li>
                         <li class="site-item">
                             <a href="#">
-                                <svg width="360" height="40" viewBox="0 0 360 40" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="360" height="40" viewbox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
                                         fill="#4D4D4D" />
@@ -248,7 +238,7 @@
             </section>
         </div>
 
-        </section>
+
     </main>
     <footer>
         <section class="map">
@@ -287,9 +277,9 @@
                     <p>Скидка 10% для друзей из социальных сетей.</p>
                 </div>
             </div>
+        </section>
 
     </footer>
-
 
 </body>
 
